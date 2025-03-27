@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Love 贝享</title>
+		<meta name="directory" content="在母婴的世界里我们闪闪发光" />
+		<meta name="keywords" content="母婴" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<link rel="stylesheet" type="text/css" href="css/base.css" />
+		<link rel="stylesheet" type="text/css" href="iconfont/iconfont.css" />
+		<link rel="stylesheet" type="text/css" href="css/common.css" />
+		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<link rel="stylesheet" type="text/css" href="css/advertisement.css" />
+		<link rel="stylesheet" type="text/css" href="css/memberCenter.css"/>
+		<!--引入Swiper的css文件-->
+		<link rel="stylesheet" type="text/css" href="css/swiper-bundle.min.css" />
+			<style type="text/css">
+			.myform{
+				background-color:lightsalmon;
+				height: 50px;
+				width: 500px;
+				/*双边框线的粗细要设置4px以上*/
+				border: double 4px #FFF;
+				color: #FFF;
+				font-size:40px;
+				position: relative;
+				top: 330px;
+			}
+		</style>
+	</head>
+   
+	<body>
+		<!-------------------------------------头部区----------------------------- -->
+		<header>
+			<!-------------快捷菜单------------->
+			<nav class="dessert-shortcut">
+				<ul class="fr">
+					<li>
+						<a href="#">
+							<span class="iconfont icon-gouwuche3"></span> 我的订单
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="iconfont icon-huangguan"></span> 会员中心
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span class="iconfont icon-kefu1"></span> 在线客服
+						</a>
+					</li>
+					<li>
+						<a href="#">
+							<span>
+								<span class="iconfont icon-zhucedenglushoujihao"></span>
+							</span>
+							手机版
+						</a>
+					</li>
+				</ul>
+			</nav>
+			<!------------导航区--------------->
+			<nav class="dessert-naviation container">
+				<img src="img/logo.jpg" alt=""/>
+				<ul class="fr">
+					<li>
+						<a href="index.html">首页</a>
+						<a href="babyFood.html">婴儿辅食</a>
+						<a href="babyClothes.html">婴儿服饰</a>
+						<a href="babyToys.html">婴儿玩具</a>
+						<a href="aboutUs.html">关于我们</a>
+						<a href="memberCenter.html">会员中心</a>
+						<a href="shopping.html">购物车</a>
+						<a href="login.html">登录</a>
+					
+					</li>
+					<div>
+						<input type="text" value="搜一搜" />
+					</div>
+
+				</ul>
+
+			</nav>
+			<!--------------轮播图--------------------->
+			<div class="dessert-enter">
+				<ul class="container">
+					<!--轮播图-->
+					<div class="swiper">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide"><img src="img/轮播1.jpg" /></div>
+							<div class="swiper-slide"><img src="img/轮播2.jpg" /></div>
+							<div class="swiper-slide"><img src="img/轮播3.jpg" /></div>
+						</div>
+						<!-- 如果需要分页器 -->
+						<div class="swiper-pagination"></div>
+						<!-- 如果需要导航按钮 -->
+						<div class="prev">
+							<div class="swiper-button-prev"></div>
+						</div>
+						<div class="next">
+							<div class="swiper-button-next"></div>
+						</div>
+
+						<!-- 如果需要滚动条 -->
+						<div class="swiper-scrollbar"></div>
+					</div>
+			</div>
+		</header>
+		<!---------------------------------内容区------------------------------------>
+		<!--------------------------内容区一----------------------->
+		<article class="dessert-zt1 container">
+			<div class="one">
+			
+		</div>
+			<div class="one">
+			
+		</div>
+			<div class="one">
+			
+		</div>
+		</article>
+		<!---------------------------内容区二----------------------->
+		<div class="lucky">
+            <div id="winner">
+                <div class="name1"></div>
+                <div class="name2">祝您好运</div>
+                <div class="name3"></div>
+            </div>
+            <div class="action"></div>
+            <div class="but" id="start">开始</div>
+       </div>
+        <script>
+           
+        </script>
+         <!--音乐按钮-->
+	  	 <div id="headerr">
+	  	 	 	<img src="img/icon_music_on2.png" width="20px" id="btn-music" onclick="play(this)"/>
+	  	<!--音乐播放器-->
+	  	<audio src="med/好运来.mp3" id="music"  loop="loop" autoplay="autoplay"></audio>
+	  	 </div>
+	  	   <iframe  scrolling="no" id="vp"></iframe>
+	  <script type="text/javascript" src="js/page2-2.js">
+		</script>
+		<!--烟花-->
+		 <canvas id="fireworksCanvas" width="800" height="600"></canvas>
+
+		<!-------------------------------------底部区-------------------------------->
+		<footer class="dessert-footer">
+			
+			<div class="container">
+				<div class="tb">
+					<span class="iconfont icon-anquanzhongxin">
+					<span class="iconfont icon-shouye-shangjiazijianwuliu">
+				    <span class="iconfont icon-huodaofukuan"></span>
+					<span class="iconfont icon-xiaoshi">
+					<!--<hr />
+					<div class="wz1">
+						<p>食品安全<br />精选产品 质量可靠</p>
+					</div>
+					<div class="wz2">
+						<p>运输安全<br />可靠物流 安全可靠</p>
+					</div>
+					<div class="wz3">
+						<p>货到付款<br />放心收货  财务可靠</p>
+					</div>
+					<div class="wz4">
+						<p>时间保证<br />24小时营业 信任可靠</p>
+					</div>-->
+					
+			</div>
+			<hr / class="h111">
+          	<div class="tb2">
+          		<dl>
+          			<dt>服务保障</dt>
+          			<dd>正品保证</dd>
+          			<dd>7天无理由退换</dd>
+          			<dd>退货返运费</dd>
+          		</dl>
+          		<br />
+          		<dl>
+          			<dt>支付方式</dt>
+          			<dd>货到付款</dd>
+          			<dd>在线支付</dd>
+          			<dd>分期付款</dd>
+          		</dl>
+          		<br />
+          		<dl>
+          			<dt>商家服务</dt>
+          			<dd>商家入驻</dd>
+          			<dd>培训中心</dd>
+          			<dd>服务市场</dd>
+          		</dl>
+                <br />
+                
+          	</div>
+          	<p class="bq">CopyRight @ Love贝享</p>
+          	
+          </div>
+              <form  name="myform">
+			<input type="text" name="mytext"  class="myform"/>
+		</form>
+		</footer>
+
+		<!--引入swiper的js文件-->
+		<script type="text/javascript" src="js/swiper-bundle.min.js"></script>
+		<script type="text/javascript" src="js/swiper.js"></script>
+	</body>
+	<script type="text/javascript" src="js/js.js">
+	</script>
+<script type="text/javascript">
+	function disptime(){
+				//获取系统当前日期
+				var time=new Date();
+				//分别获取当前年、月、日、时、分、秒
+			var year=time.getFullYear();
+			var month=time.getMonth()+1;
+			var date=time.getDate();
+			var hour=time.getHours();
+			var minute=time.getMinutes();
+			var second=time.getSeconds();
+			//判断是否为两位，不足两位前面补0
+			if(hour<10){
+				hour="0"+hour;
+			}
+			if(minute<10){
+				miute="0"+minute;
+			}
+			if(second<10){
+				second="0"+second;
+			}
+			//将获取的日期指定格式显示在文本框中
+			document.myform.mytext.value=year+"年"+month+"月"+date+"日"+hour+":"+minute+":"+second;
+			//设置延时定时函数每隔一秒(1000ms)调用一次函数实现时钟的刷新 毫秒不需要加单位 执行一次 disptime()定时器
+			var mytime=setTimeout("disptime()",1000);
+			}
+			disptime();
+	</script>
+	<script type="text/javascript">
+		// 获取canvas元素及其2D上下文
+    const canvas = document.getElementById('fireworksCanvas');
+    const ctx = canvas.getContext('2d');
+
+    // 定义粒子类
+    class Particle {
+      constructor(x, y, color) {
+        this.x = x;
+        this.y = y;
+        this.vx = (Math.random() - 0.5) * 10;
+        this.vy = (Math.random() - 0.5) * 10;
+        this.size = Math.random() * 3 + 1;
+        this.color = color;
+      }
+
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        this.vy += 0.3;
+        this.size *= 0.95;
+      }
+
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.size, 0, 2 * Math.PI);
+        ctx.fillStyle = this.color;
+        ctx.fill();
+      }
+    }
+
+    // 定义烟花类
+    class Firework {
+      constructor() {
+        // 随机生成烟花发射的位置
+        this.x = Math.random() * canvas.width;
+        this.y = Math.random() * canvas.height;
+        this.particles = [];
+        this.colors = ['#FF5733', '#33FF57', '#5733FF', '#FF33E7', '#33E7FF', '#FFFF00', '#FF00FF'];
+      }
+
+      launch() {
+        const numParticles = Math.floor(Math.random() * 30) + 20;
+        for (let i = 0; i < numParticles; i++) {
+          const color = this.colors[Math.floor(Math.random() * this.colors.length)];
+          const particle = new Particle(this.x, this.y, color);
+          this.particles.push(particle);
+        }
+      }
+
+      update() {
+        for (let i = 0; i < this.particles.length; i++) {
+          this.particles[i].update();
+          if (this.particles[i].size < 0.1) {
+            this.particles.splice(i, 1);
+            i--;
+          }
+        }
+      }
+
+      draw() {
+        for (let i = 0; i < this.particles.length; i++) {
+          this.particles[i].draw();
+        }
+      }
+    }
+
+    const fireworks = [];
+
+    function createFirework() {
+      const firework = new Firework();
+      firework.launch();
+      fireworks.push(firework);
+    }
+
+    function animate() {
+      ctx.clearRect(0, 0, canvas.width, canvas.height);
+      for (let i = 0; i < fireworks.length; i++) {
+        fireworks[i].update();
+        fireworks[i].draw();
+        if (fireworks[i].particles.length === 0) {
+          fireworks.splice(i, 1);
+          i--;
+        }
+      }
+      if (Math.random() < 0.05) {
+        createFirework();
+      }
+      requestAnimationFrame(animate);
+    }
+
+    animate();
+    //
+     //抽奖人
+            let nameArr = ["Dy~", "Clever Ma", "HH", "梨涡远点", "高高不高", "1014", "盈儿.", "贝儿"];
+            let startIntVal;
+            let winner = document.getElementById("winner");
+            let start = document.getElementById("start");
+            //获取元素
+            function $(selectors) {
+                return document.querySelector(selectors);
+            }
+            //获取元素样式
+            function getStyle(dom, attr) {
+                return window.getComputedStyle(dom, false)[attr];
+            }
+            //生成随机数
+            function randomNum(max) {
+                return Math.floor(max * Math.random() / 1);
+            }
+            //随机抽取获奖人
+            function randomName(dom) {
+                let len = nameArr.length;
+                let val = nameArr[randomNum(len)];
+                dom.innerHTML = val;
+            }
+            let flag = 1;
+            //防止重复点击
+            let name1 = $(".name1");
+            let name2 = $(".name2");
+            let name3 = $(".name3");
+            start.addEventListener("click", function() {
+                if (flag) {
+                    //开始
+                    flag = 0;
+                    stopNum = 5;
+                    start.innerHTML = "停止";
+                    winner.className = "luckyName";
+                    randomName(name1);
+                    //随机名字
+                    randomName(name2);
+                    randomName(name3);
+                    //开始抽奖动画
+                    startIntVal = setInterval("action(8)", 125);
+                } else {
+                    //结束
+                    setTimeout(function() {
+                        slowStop();
+                        //1s后执行
+                    }, 1000)
+
+                }
+            }, false);
+            //缓慢结束动画
+            let stopNum = 5;
+            function slowStop() {
+                clearInterval(startIntVal);
+                //清除动画定时
+                if (stopNum > 0) {
+                    setTimeout(function() {
+                        if (stopNum < 3) {
+                            //减速
+                            action(2);
+                            startIntVal = setInterval("action(2)", 500);
+                        } else {
+                            action(4);
+                            startIntVal = setInterval("action(4)", 250);
+                        }
+                    }, 225);
+                    //切换速度
+                    setTimeout(function() {
+                        stopNum -= 2;
+                        slowStop();
+                    }, 2000);
+                } else {
+                    //结束
+                    flag = 1;
+                    start.innerHTML = "开始";
+                    winner.className = "luckyName ok";
+                }
+
+            }
+
+            //动画
+            //top
+            let i = 0;
+            //获取top值
+            let stepArr = [100, 0, -100];
+            function orderTop(num) {
+                let index = num % 3;
+                return stepArr[index];
+            }
+            function action(speed) {
+                animationF(name1, orderTop(i), speed);
+                animationF(name2, orderTop(i + 2), speed);
+                animationF(name3, orderTop(i + 1), speed);
+                i++;
+                //重复循环
+            }
+            //设置top 动画
+            function animationF(dom, target, speed) {
+                clearInterval(dom.timer);
+                //清除定时器
+                //获取当前top
+                let cur = parseInt(getStyle(dom, "top"));
+                if (cur > target) {
+                    speed = -speed;
+                }
+                if (target == 100) {
+                    //重新抽取并设置到底部
+                    randomName(dom);
+                    dom.style["top"] = "100px";
+                    return;
+                }
+                //定时器动画
+                dom.timer = setInterval(function() {
+                    let cur = parseInt(getStyle(dom, "top"));
+                    if ((speed > 0 && cur >= target) || (speed < 0 && cur <= target)) {
+                        //动画结束
+                        clearInterval(dom.timer);
+                    } else {
+                        //移动位置
+                        dom.style["top"] = cur + speed + "px";
+                    }
+                }, 10)
+
+            }
+            
+	</script>
+</html>
