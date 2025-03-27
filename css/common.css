@@ -1,0 +1,321 @@
+.container {
+	width: 1240px;
+	margin: 0 auto;
+}
+
+
+/*-----------------------------------------------------头部区-----------------------------------------------------*/
+
+
+/*---------------------------dessert-shortcut快捷菜单-------------------------*/
+
+
+/*1.设置快捷菜单的大小*/
+
+.dessert-shortcut {
+	width: 100%;
+	height: 40px;
+	background-color: #feeef3;
+}
+
+
+/*2.设置快捷菜单的位置*/
+
+.dessert-shortcut ul li {
+	line-height: 40px;
+	float: left;
+	margin-right: 20px;
+	font-size: 12px;
+}
+
+
+/*3.设置快捷菜单a初始状态*/
+
+.dessert-shortcut ul li a {
+	color: burlywood;
+}
+
+
+/*3-1.设置鼠标悬停在a标签上的状态*/
+
+.dessert-shortcut ul li a:hover {
+	color: #27ba9b;
+}
+
+
+/*4.字体图标改颜色*/
+
+.icon-gouwuche3 {
+	color: green;
+}
+
+.icon-huangguan {
+	color: #EE9900;
+}
+
+.icon-kefu1 {
+	color: cornflowerblue;
+}
+
+.icon-zhucedenglushoujihao {
+	color: #795DA3;
+}
+
+
+/*---------------------------dessert-naviation导航区-------------------------*/
+
+
+/*1.设置导航区大小*/
+
+.dessert-naviation {
+	height: 80px;
+	/*ps*/
+	/*background-color: #B3D4FC;*/
+	/*父相：图片和ul和搜索框*/
+	position: relative;
+}
+
+
+/*1.设置导航区图片大小和位置logo*/
+
+.dessert-naviation img {
+	display: inline-block;
+	width: 300px;
+	height:96px;
+	/*子绝*/
+	position: absolute;
+	/*top: -3px;*/
+	}
+
+
+/*2.设置导航区ul位置*/
+
+.dessert-naviation ul {
+	/*子绝*/
+	position: absolute;
+	right: 300px;
+	line-height: 80px;
+}
+
+
+/*3.设置导航区a间距*/
+
+.dessert-naviation ul li a {
+	margin-left: 18px;
+}
+
+
+/*4.设置导航区a鼠标悬停*/
+
+.dessert-naviation ul li a:hover {
+	color: #27BA9B;
+	text-decoration: underline;
+}
+
+
+/*5.设置导航区搜索框*/
+
+.dessert-naviation div input {
+	border: 1px solid #000000;
+	width: 200px;
+	height: 25px;
+	/*子绝*/
+	position: absolute;
+	top: 24px;
+	left: 700px;
+}
+
+
+/*5.设置导航区搜索框图标*/
+
+.dessert-naviation div span {
+	position: absolute;
+	top: -5px;
+	left: 570px;
+}
+
+
+/*6.放大镜大小*/
+
+.icon-fangdajing {
+	font-size: 22px;
+	
+}
+.iconfont .icon-fangdajing{
+	position: relative;
+	left: 500px;
+}
+
+/*----------------------------------------轮播图--------------------------------*/
+
+
+/*1.入口*/
+
+.dessert-enter {
+	height: 300px;
+	background-color: #f5f5f5;
+}
+
+
+/*2.网站入口的版心*/
+
+.dessert-enter .container {
+	height: 300px;
+	/*ps*/
+	/*background-color: red;*/
+	/*需要定位子绝父相*/
+	position: relative;
+}
+
+
+/*8.网站入口侧边栏li的后面加大于号*/
+
+.dessert-enter .aside li::after {
+	content: '';
+	width: 6px;
+	height: 11px;
+	/*ps*/
+	/*background-color: red;*/
+	/*子绝父相*/
+	position: absolute;
+	top: 19px;
+	right: 19px;
+	background: url(../images/sprites.png) -80px -110px;
+}
+
+
+/*9.轮播图盒*/
+
+.dessert-enter .swiper {
+	width: 1240px;
+	height: 300px;
+	/*设置初始化风格*/
+	--swiper-theme-color: #fff;
+	/*设置分页器风格*/
+	--swiper-navigation-color: #fff;
+	/*设置按钮颜色*/
+	--swiper-navigation-size: 30px;
+	/*设置分页器尺寸*/
+	/*position: absolute;
+	top: 0;
+	left: 0;*/
+}
+
+
+/*10.轮播图左右按钮外层的圆*/
+
+.dessert-enter .prev {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.2);
+	/*子绝父相*/
+	position: absolute;
+	top: 130px;
+	/*left: 260px;*/
+	left: 10px;
+	z-index: 5;
+}
+
+.dessert-enter .next {
+	width: 45px;
+	height: 45px;
+	border-radius: 50%;
+	background-color: rgba(0, 0, 0, 0.2);
+	/*子绝父相*/
+	position: absolute;
+	top: 130px;
+	right: 10px;
+	z-index: 5;
+}
+
+
+/*11.轮播图左右按钮的位置*/
+
+.swiper-button-prev {
+	margin-left: 5px;
+}
+
+.swiper-button-next {
+	margin-right: 5px;
+}
+
+.w-logo {
+	height: 120px;
+	width: 200px;
+	position: relative;
+	right: 1300px;
+	top: -20px;
+}
+
+
+/*----------------------------------------------------------脚部区--------------------------------------------------------*/
+
+
+/*1.设置脚步区的整体大小*/
+
+.dessert-footer {
+	width: 100%;
+	height: 400px;
+	/*ps*/
+	background-color:#feeef3;
+	position: relative;
+	display: flex;
+}
+.tb span{
+	font-size:80px;
+	margin-left: 150px;
+	position: relative;
+	left: 100px;
+}
+.wz1 p{
+	font-size: 15px;
+	position: absolute;
+	top: 40px;
+	left: 380px;
+}
+.wz2 p{
+	font-size: 15px;
+	position: absolute;
+	top: 40px;
+	left: 635px;
+}
+.wz3 p{
+	font-size: 15px;
+	position: absolute;
+	top: 40px;
+	left: 890px;
+}
+.wz4 p{
+	font-size: 15px;
+	position: absolute;
+	top: 40px;
+	left: 1150px;
+}
+.tb2{
+	display: flex;
+	justify-content: flex-start;
+	position: relative;
+	left: 230px;
+	top: 40px;
+}
+.tb2 dl{
+	margin-left:220px;
+}
+.tb2 dl dt{
+	color: darksalmon;
+	font-weight: 600;
+	font-size: 20px;
+}
+.tb2 dl dd{
+	color: #DEB887;
+}
+.bq{
+	margin-left: 750px;
+	margin-top: 100px;
+	color: darkgray;
+}
+.h111{
+	position: relative;
+	left: 260px;
+}

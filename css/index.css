@@ -1,0 +1,150 @@
+/*内容区*/
+/*内容区第一板块*/
+/*1.设置内容区整体大小*/
+.dessert-zt1{
+	margin-top: 30px;
+	height: 150px;
+	/*ps*/
+/*	background-color: #B3D4FC;*/
+	position: relative;
+}
+/*2.设置内容区图片*/
+.dessert-zt1 img{
+	display: inline-block;
+	width: 100px;
+	height: 100px;
+	margin-left: 205px;
+	margin-top: -66px;
+}
+/*3.设置内容区大的div*/
+.dessert-zt1 .one{
+	position: relative;
+	width: 80px;
+	height: 80px;
+	background: pink;
+	margin-left: 235px;
+	margin-top: 40px;
+	transform: rotate(-45deg);
+	display: inline-block;
+}
+.one:before{
+			content: "";
+			position: absolute;
+			width: 80px;
+			height: 80px;
+			background-color: pink;
+			border-radius: 50%;
+			top: -50px;
+			left: 0;
+		}
+		.one:after{
+			 content: "";
+			 position: absolute;
+			 background-color: pink;
+			 border-radius: 50%;
+			 height: 80px;
+			 width: 80px;
+			 left: 50px;
+			 top: 0;
+		}
+/*-------------------------内容区二-----------------------------------*/
+/*1.设置内容区大小*/
+.dessert-zt2{
+	margin-top: 20px;
+	height: 1000px;
+	/*ps*/
+	/*background-color: aquamarine;*/
+	position: relative;
+	margin-bottom: 20px;
+}
+/*2.设置内容区标题*/
+.dessert-zt2 h2{
+	text-align: center;
+	font-size: 26px;
+	font-family: "book antiqua";
+}
+/*3.设置内容区字体图标*/
+.dessert-zt2 .d2zttp{
+	position: absolute;
+	left: 470px;
+}
+/*3.设置内容区字体图标大小*/
+.dessert-zt2 .icon-changbolangxian,.icon-muying,.icon-changbolangxian{
+	font-size: 50px;
+	margin-left: 40px;
+	left: 60px;
+	text-align: center;
+	margin-top: 20px;
+}
+/*4.设置内容区图片和文字的大盒子*/
+.dessert-zt2 .tz{
+	position: relative;
+	top: 70px;
+	left: 25px;
+	/*border: 1px solid red;*/
+	width: 280px;
+	height: 240px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+.pic{
+	width: 280px;
+	height: 180px;
+	overflow: hidden;
+}
+/*5.设置内容区图片*/
+.pic img{
+	width: 180px;
+	height: 180px;
+	margin-left: 35px;
+	transition:1s;
+}
+.pic li:hover img{
+    transform: scale(1.5);
+	-moz-transform: scale(1.5);
+	-o-transform: scale(1.5);
+	-webkit-transform: scale(1.5);
+	-ms-transform: scale(1.5);	
+}
+
+/*6.设置内容区小div介绍和价钱*/
+.dessert-zt2 .yincang{
+	margin-left: 35px;
+	/*background-color: #55A532;*/
+	/*background-image: linear-gradient(transparent,#55A532);*/
+	background-image: linear-gradient(transparent,rgb(232,206,237,0.2));
+	width: 180px;
+	height: 60px;
+	transition: 5s;
+	-moz-transition: 5s;
+	-o-transition: 5s;
+	-webkit-transition: 5s;
+	-ms-transition: 5s;
+}
+.dessert-zt2 .yincang .jk{
+	margin-left: 70px;
+}
+/*6.设置内容区小div介绍和价钱鼠标悬停*/
+.dessert-zt2 .yincang:hover{
+	transform: translateY(-60px);
+	-o-transform: translateY(-60px);
+	-webkit-transform: translateY(-60px);
+	-ms-transform: translateY(-60px);
+	-moz-transform: translateY(-60px);
+	color: red;
+	font-weight: bold;
+}
+/*7.设置内容区钱的符号*/
+.dessert-zt2 .tz p span{
+	font-size: 10px;
+}
+/*-------------------------分页*/
+/*.fengye ul li a{
+	display: inline-block;
+	margin-left: 20px;
+	word-wrap: initial;
+	
+}*/
+
+

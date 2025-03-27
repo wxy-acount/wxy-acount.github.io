@@ -1,0 +1,99 @@
+/*初始化*/
+/**{
+   margin:0;
+  padding: 0;
+  border:0 ;
+  font-family: "微软雅黑";
+  font-size:14px;
+  color:#000 ;
+  list-style:none;
+}*/
+.bbs{
+/*	border: 1px solid red ;*/
+	width: 600px;
+	height: 1000px;
+	margin: 0 auto;
+	position: relative;
+	top: 100px;
+}
+.header1{
+	border-bottom: 1px solid #cecece;
+	padding: 5px 0;
+}
+.header1 span{
+	background-color: #096;
+	color:#fff;
+	border-radius: 8px;
+	width:220px;
+	height: 50px;
+	display: inline-block;
+	text-align: center;
+	line-height: 50px;
+	font-size: 18px;
+	font-weight: bold;
+}
+#post{
+	background-color: #fff;
+	border: 1px solid #ccc;
+	margin-top: 10px;
+	width: 510px;
+	position: absolute;
+	left:65px;
+	top: 60px;
+	padding: 10px;
+	display: none;
+	z-index: 100;
+}
+#title{
+	border: 1px solid #cecece;
+	display: block;
+	width: 450px;
+	height: 30px;
+	margin-bottom: 10px;
+}
+#sec{
+	border: 1px solid #cecece;
+    height: 30px;
+	width: 200px;
+}
+#content{
+	border: 1px solid #cecece;
+	width: 450px;
+	margin: 10px 0;
+	height: 200px;
+}
+.btn{
+	background-color: #096;
+	color:#fff;
+	border-radius: 8px;
+	width: 160px;
+	height: 36px;
+	font-weight: bold;
+}
+#postlist li{
+	border-bottom: dashed 1px #999;
+	overflow: hidden;
+	padding: 10px 0;
+}
+#postlist li div{
+	width: 60px;
+	float: left;
+	margin-right: 10px;
+}
+#postlist li div img{
+	border-radius: 50%;
+	width: 60px;
+}
+#postlist li h1{
+	float: left;
+	width: 520px;
+	line-height: 36px;
+	font-size: 16px;
+}
+#postlist li p{
+	color: #666;
+}
+
+#postlist li p span{
+	margin-right: 20px;
+}

@@ -1,0 +1,111 @@
+.lucky{
+    width:320px;
+    height:400px;
+    position:relative;
+    margin:50px auto;
+    /*background:url(background.png) no-repeat top center;*/
+    background: url(../uploads/母婴店图片/background.png) no-repeat top center;
+    background-size:320px;
+}
+#winner{
+    width:51%;
+    height:87px;
+    line-height:87px;
+    position:absolute;
+    font-size:18px;
+    text-align:center;
+    top:26%;
+    left:26%;
+    overflow:hidden;
+}
+/* 获奖动画 */
+#winner.ok{
+    animation:win 1.2s infinite linear;
+     font-weight:500;
+}
+@keyframes win{
+     0% {
+        font-size: 20px;
+    }
+
+    50% {
+        font-size: 30px;
+    }
+
+    100% {
+        font-size: 35px;
+    }
+}
+.action{
+    width:25px;
+    height:85px;
+   /* background:url(action.png) no-repeat  0 0;*/
+    background:url(../uploads/母婴店图片/action.png) no-repeat  0 0 ;
+    background-size:25px;
+    position:absolute;
+    top:142px;
+    right:34px;
+}
+.but{
+    width:168px;
+    height:45px;
+    position:absolute;
+    top:52%;
+    text-align:center;
+    cursor:pointer;
+    left:78px;
+    color:#fff;
+    font-weight:600;
+    line-height:45px;
+}
+.name1,.name2,.name3{
+    width:100%;
+    height:87px;
+    line-height:87px;
+    position:absolute;
+}
+.name1{
+    top:-87px;
+}
+.name3{
+    top:87px;
+}
+#vp{
+				width: 100%;
+				border: none;
+				display: none;
+			}
+		    #headerr{
+				width: 100%;
+				height: 100px;
+				background-color: transparent;
+				position: fixed;
+				top: 0;
+				left: 0;
+				z-index: 10;
+			}
+			
+			#btn-music{
+				animation: imgrun 4s linear infinite;
+			}
+			@-webkit-keyframes imgrun{
+				0%{
+					transform: rotate(0);
+				}
+				50%{
+					transform: rotate(180deg);
+				}
+				100%{
+					transform: rotate(360deg);
+				}
+				}
+			canvas {
+              position: relative;
+              width: 100%;
+              top: -800px;
+              height: 700px;
+    }
+    .lucky{
+    	position:relative;
+    	top: 300px;
+    }
